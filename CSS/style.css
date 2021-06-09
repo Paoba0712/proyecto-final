@@ -74,10 +74,17 @@ p {
     float: left;
    
 }
-
+/* Pruebas 
 div.reset {
     clear: both;
   }
+*/
+
+#textoOculto{
+    display: none;
+   }
+
+
 /* Footer */
 
 footer{
