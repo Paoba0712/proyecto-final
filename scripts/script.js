@@ -1,3 +1,5 @@
+
+//Funcion de boton en la pagina de bibliografia
 function toggleSections(){
     var textoOculto = document.getElementById("textoOculto");
 
