@@ -6,10 +6,13 @@ ul {
     margin:0;
     padding:0;
     background-color: orange;
+    font-size: larger;
+    font-family: math;
 }
 
 ul li {
     display: inline-block;
+    text-align: center;
 }
 
 ul li a{
@@ -22,6 +25,8 @@ ul li a{
 header {
     background-color: gray;
     padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 16px;
 }
 
 img {
@@ -35,4 +40,12 @@ p {
     color: white;
     font-family: math;
     font-size: xxx-large;
+}
+
+.banner {
+    margin:auto;
+    display:block;
+    width: 100%;
+    
+    
 }
