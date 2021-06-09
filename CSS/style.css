@@ -1,8 +1,8 @@
 /* Estilos Generales */
 
 /* Estilos de header */
-
-li {
- list-style-type: none;
-
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
 }
