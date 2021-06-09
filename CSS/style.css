@@ -65,10 +65,12 @@ p {
 /* Body Pagina 2 */
 .biografia {
     color: black;
+    
 }
 
 .perfil{
     width: 200px;
+    vertical-align: text-top;
     
 }
 /* Footer */
