@@ -57,7 +57,10 @@ p {
     width: 100%;   
 }
 
-
+.aprendido  {
+    float: left;
+    padding-right: 1000px;
+}
 
 /* Footer */
 
