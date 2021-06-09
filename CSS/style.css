@@ -14,9 +14,25 @@ ul li {
 
 ul li a{
     color: white;
+    display: block;
+    padding: 10px;
     text-decoration: none;
 }
 
-.alineadoTextoImagenAbajo{
-    vertical-align: middle;
+header {
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+img {
+    border-radius: 10px;
+    width: 300px;
+}
+
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    font-family: math;
+    font-size: xxx-large;
 }
