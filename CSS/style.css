@@ -40,6 +40,8 @@ p {
     color: white;
     font-family: math;
     font-size: xxx-large;
+    margin: 0;
+    margin-block-start: auto;
 }
 
 .banner {
@@ -49,3 +51,17 @@ p {
     
     
 }
+
+/* Footer */
+
+footer{
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    font-family: math;
+}
+
+body{
+   margin: 0%;
+  }
