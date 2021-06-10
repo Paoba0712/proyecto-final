@@ -57,15 +57,31 @@ h1 {
     width: 100%;   
 }
 
+/*Estilos del texto */
+
+section{
+    text-align: justify;
+    font-size: larger;
+}
+
+
 /*Estilos para linear la clase .aprendido/elemento de bloque*/
 .aprendido  {
     display: inline-block;
     background-color: antiquewhite;
+    margin: 40px;
+    padding: 30px;
+}
+
+ol {
+    list-style-type: none;
 }
 
 .gustos {
     display: inline-block;
     background-color: cadetblue;
+    margin: 40px;
+    padding: 30px;
 }
 
 /* Body Pagina 2 */
