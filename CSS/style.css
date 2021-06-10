@@ -6,6 +6,13 @@ body{
     margin: 0 auto;
    }
 
+   h1 {
+     color: darkred;
+   }
+
+   h2 {
+       color: darkred;
+   }
 /* Estilos de header */
 
 /* Estilos de navegador/menu*/
@@ -44,8 +51,9 @@ img {
     display: inline-block;
 }
 
-h1 {
+.main {
     display: inline-block;
+    color: white;
 }
 
 /* Body Pagina 1 */
