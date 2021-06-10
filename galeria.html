@@ -29,10 +29,35 @@
         <h1>Galería</h1>
         
         <nav id="sidebar">
-        <button id="hobbies-btn" onclick="hobbies()">Hobbies</button> 
-        <button id="familia-btn" onclick="familia()">Familia</button> 
-        <button id="paseos-btn" onclick="paseos()">Paseos</button>
+        <button id="hobbies-btn" onclick="showCategory('hobbies')">Hobbies</button> 
+        <button id="familia-btn" onclick="showCategory('familia')">Familia</button> 
+        <button id="paseos-btn" onclick="showCategory('paseos')">Paseos</button>
         </nav>
+
+        <div id="gallery">
+            <div class="category" id="hobbies">
+                <img src="imagenes/hobbies/futbol 1.jpg" alt="imagen">
+                <img src="imagenes/hobbies/comida.jpeg" alt="imagen">
+                <img src="imagenes/hobbies/chirripo.jpg" alt="imagen">
+                <img src="imagenes/hobbies/amigos.jpg" alt="imagen">
+            </div>
+
+            <div class="category" id="familia">
+                <img src="imagenes/familia/papas.jpg" alt="imagen">
+                <img src="imagenes/familia/papa.jpg" alt="imagen">
+                <img src="imagenes/familia/mama.jpg" alt="imagen">
+                <img src="imagenes/familia/hermanos.jpg" alt="imagen">
+            </div>
+
+            <div class="category" id="paseos">
+                <img src="imagenes/paseos/peru.jpg" alt="imagen">
+                <img src="imagenes/paseos/amsterdan.jpg" alt="imagen">
+                <img src="imagenes/paseos/playa.jpg" alt="imagen">
+                <img src="imagenes/paseos/europa.jpg" alt="imagen">
+
+            </div>
+
+        </div>
 
      </section>
     </main>

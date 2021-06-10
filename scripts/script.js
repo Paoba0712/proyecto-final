@@ -11,3 +11,14 @@ function toggleSections(){
         document.getElementById("toggleSections").textContent = "Leer menos";
     }
 }
+
+//Funciones de la galeria 
+function showCategoria(type) {
+    var familiaElement = document.getElementById("familia");
+    var paseosElement = document.getElementById("paseos");
+    var hobbiesElement = document.getElementById('hobbies');
+
+    var familiaBtnElement = document.getElementById("familia-btn"); 
+    var paseosBtnElement = document.getElementById("paseos-btn");
+    var hobbiesBtnElement = document.getElementById("hobbies")
+}
