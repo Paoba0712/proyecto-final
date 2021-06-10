@@ -1,8 +1,9 @@
 /* Estilos Generales */
 
 body{
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    max-width: 1280px;
+    margin: 0 auto;
    }
 
 /* Estilos de header */
@@ -38,8 +39,9 @@ header {
 }
 /* Estilos de la imagen WATT*/
 img {
-    border-radius: 10px;
+    border-radius: 12px;
     width: 300px;
+    display: inline-block;
 }
 
 h1 {
