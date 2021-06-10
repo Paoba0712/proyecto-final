@@ -59,8 +59,13 @@ h1 {
 
 /*Estilos para linear la clase .aprendido/elemento de bloque*/
 .aprendido  {
-    float: left;
+    display: inline-block;
+    background-color: antiquewhite;
+}
 
+.gustos {
+    display: inline-block;
+    background-color: cadetblue;
 }
 
 /* Body Pagina 2 */
