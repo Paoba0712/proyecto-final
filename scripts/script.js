@@ -53,5 +53,5 @@ function showCategory(type) {
             hobbiesBtnElement.style.backgroundColor = "#5a0302";
             break;
             
-           }
-        }
+     }
+}
