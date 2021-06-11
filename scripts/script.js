@@ -41,8 +41,16 @@ function showCategoria(type) {
             familiaBtnElement.style.backgroundColor = "#f47c24";
             hobbiesBtnElement.style.backgroundColor = "#f47c24";
             paseosBtnElement.style.backgroundColor = "#5a0302";
+            break;
+        default:
+            familiaElement.style.display = "none";
+            paseosElement.style.display = "none";
+            hobbiesElement.style.display = "block";
 
-
+            paseosBtnElement.style.backgroundColor = "#f47c24";
+            familiaBtnElement.style.backgroundColor = "#f47c24";
+            hobbiesBtnElement.style.backgroundColor = "#5a0302";
+            break;
             
     }
 }
