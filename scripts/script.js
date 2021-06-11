@@ -28,7 +28,7 @@ function showCategoria(type) {
         case "familia":
             paseosElement.style.display = "none";
             hobbiesElement.style.display ="none";
-            familiaElement.style.display ="block";
+            familiaElement.style.display = "block";
 
             paseosBtnElement.style.backgroundColor = "#f47c24";
             hobbiesBtnElement.style.backgroundColor = "#f47c24";
