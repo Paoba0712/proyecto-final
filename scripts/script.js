@@ -23,6 +23,7 @@ function showCategoria(type) {
     var familiaBtnElement = document.getElementById("familia-btn"); 
     var paseosBtnElement = document.getElementById("paseos-btn");
     var hobbiesBtnElement = document.getElementById("hobbies-btn");
+
     switch (type) {
         case "familia":
             paseosElement.style.display = "none";
@@ -52,5 +53,5 @@ function showCategoria(type) {
             hobbiesBtnElement.style.backgroundColor = "#5a0302";
             break;
             
-    }
-}
+           }
+        }
