@@ -15,7 +15,7 @@ function toggleSections(){
 
 
 //Funciones de la galeria 
-function showCategoria(type) {
+function showCategory(type) {
     var familiaElement = document.getElementById("familia");
     var paseosElement = document.getElementById("paseos");
     var hobbiesElement = document.getElementById('hobbies');
