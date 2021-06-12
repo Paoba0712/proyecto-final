@@ -118,6 +118,19 @@ ol {
 span {
     font-weight: 700;
 }
+/*Body Pagina 3*/
+#familia, #paseos {
+
+    display: none;
+}
+.image {
+    display: inline-block;
+    width: 300px;
+}
+
+.image img:hover {
+    transform: scale(1.1);
+}
 
 /* Footer */
 
