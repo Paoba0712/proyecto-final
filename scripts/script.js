@@ -30,27 +30,27 @@ function showCategory(type) {
             hobbiesElement.style.display = "none";
             familiaElement.style.display = "block";
 
-            paseosBtnElement.style.backgroundColor = "#f47c24";
-            hobbiesBtnElement.style.backgroundColor = "#f47c24";
-            familiaBtnElement.style.backgroundColor = "#5a0302";
+            paseosBtnElement.style.backgroundColor = "#d18e07";
+            hobbiesBtnElement.style.backgroundColor = "#d18e07";
+            familiaBtnElement.style.backgroundColor = "#F5D0A9";
             break;
         case "paseos":
             hobbiesElement.style.display = "none";
             familiaElement.style.display = "none";
             paseosElement.style.display = "block";
 
-            familiaBtnElement.style.backgroundColor = "#f47c24";
-            hobbiesBtnElement.style.backgroundColor = "#f47c24";
-            paseosBtnElement.style.backgroundColor = "#5a0302";
+            familiaBtnElement.style.backgroundColor = "#d18e07";
+            hobbiesBtnElement.style.backgroundColor = "#d18e07";
+            paseosBtnElement.style.backgroundColor = "#F5D0A9";
             break;
         default:
             familiaElement.style.display = "none";
             paseosElement.style.display = "none";
             hobbiesElement.style.display = "block";
 
-            paseosBtnElement.style.backgroundColor = "#f47c24";
-            familiaBtnElement.style.backgroundColor = "#f47c24";
-            hobbiesBtnElement.style.backgroundColor = "#5a0302";
+            paseosBtnElement.style.backgroundColor = "#d18e07";
+            familiaBtnElement.style.backgroundColor = "#d18e07";
+            hobbiesBtnElement.style.backgroundColor = "#F5D0A9";
             break;
             
      }

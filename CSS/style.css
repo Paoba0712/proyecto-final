@@ -132,6 +132,26 @@ span {
     transform: scale(1.1);
 }
 
+nav{
+    padding-bottom: 50px;
+}
+
+#hobbies-btn, #familia-btn, #paseos-btn {
+ 
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    -webkit-box-shadow: 7px 7px 11px #000000;
+    -moz-box-shadow: 7px 7px 11px #000000;
+    box-shadow: 7px 7px 11px #000000;
+    font-family: Arial;
+    color: #050005;
+    font-size: 15px;
+    background: #d18e07;
+    padding: 7px 7px 7px 7px;
+    text-decoration: none;
+
+}
 /* Footer */
 
 footer{
