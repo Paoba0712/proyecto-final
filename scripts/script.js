@@ -1,14 +1,14 @@
 
 //Funcion de boton en la pagina de bibliografia
 
-function toggleSections(){
+function toggleSections() {
     var textoOculto = document.getElementById("textoOculto");
 
     if (textoOculto.style.display == "block") {
         textoOculto.style.display = "none";
         document.getElementById("toggleSections").textContent = "Leer mas";
     } else {
-        textoOculto.style.display ="block";
+        textoOculto.style.display = "block";
         document.getElementById("toggleSections").textContent = "Leer menos";
     }
 }
@@ -20,7 +20,7 @@ function showCategory(type) {
     var paseosElement = document.getElementById("paseos");
     var hobbiesElement = document.getElementById('hobbies');
 
-    var familiaBtnElement = document.getElementById("familia-btn"); 
+    var familiaBtnElement = document.getElementById("familia-btn");
     var paseosBtnElement = document.getElementById("paseos-btn");
     var hobbiesBtnElement = document.getElementById("hobbies-btn");
 
@@ -52,6 +52,6 @@ function showCategory(type) {
             familiaBtnElement.style.backgroundColor = "#d18e07";
             hobbiesBtnElement.style.backgroundColor = "#F5D0A9";
             break;
-            
-     }
+
+    }
 }
