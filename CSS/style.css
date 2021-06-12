@@ -136,7 +136,7 @@ nav{
     padding-bottom: 50px;
 }
 
-#hobbies-btn, #familia-btn, #paseos-btn {
+#hobbies-btn, #familia-btn, #paseos-btn, #toggleSections {
  
     -webkit-border-radius: 60;
     -moz-border-radius: 60;
